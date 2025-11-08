@@ -34,13 +34,12 @@ const drawChristmasTree = (height: number) => {
   let christmasTree = '';
   for (let index = 0; index < height; index++) {
     const maxLength = height - ( index + 1 );
-    const line = ''.padEnd( maxLength, '_');
-    const maxLengthTreeLeaves =  ( (index + 1) * 2 ) - 1;
-    const treeLeaves = ''.padEnd( maxLengthTreeLeaves, '*');
+    const line = '_'.repeat( maxLength );
+    const leavesCount =  ( (index + 1) * 2 ) - 1;
+    const treeLeaves = ''.padEnd( leavesCount, '*');
     christmasTree += `${line}${treeLeaves}${line}\n`;
   }
-  const lineTrunk = ''.padEnd( height - 1, '_');
-  christmasTree += `${lineTrunk}#${lineTrunk}\n`;
-  christmasTree += `${lineTrunk}#${lineTrunk}`;
-  return christmasTree;
+  const lineTrunk = '_'.repeat( height - 1);
+  const trunk = `${lineTrunk}#${lineTrunk}`;
+  return `${christmasTree}${trunk}\n${trunk}`;
 }
