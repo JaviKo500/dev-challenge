@@ -4,9 +4,10 @@
 // import { countSheep } from "./src/advent2021/countSheep_1";
 // import { countDaysToChristmas5 } from "./src/advent2021/countDaysToChristmas_5";
 // import { cryptoMaxProfit8 } from "./src/advent2021/cryptoMaxProfit_8";
-import { groupDetails9 } from "./src/advent2021/groupDetails_9";
+// import { groupDetails9 } from "./src/advent2021/groupDetails_9";
 // import { searchProduct7 } from "./src/advent2021/searchProduct_7";
 // import { sumPairs6 } from "./src/advent2021/sumPairs_6";
+import { getCoinsValues11 } from "./src/advent2021/getCoinsValues_11";
 
 // countSheep();
 // countGiftsLetter2();
@@ -15,4 +16,5 @@ import { groupDetails9 } from "./src/advent2021/groupDetails_9";
 // sumPairs6();
 // searchProduct7();
 // cryptoMaxProfit8();
-groupDetails9();
+// groupDetails9();
+getCoinsValues11();
