@@ -22,7 +22,7 @@ tienes disponible para crear el array con la devolución, ya que debes usar siem
 */
 
 const coins = [ 1,2,5,10,20,50, ];
-export const getCoinsValues11 = () => {
+export const getCoinsValues10 = () => {
   console.log('<--------------- JK GetCoinsValues_11 --------------->');
   console.log(getCoins(51)); // [1, 0, 0, 0, 0, 1] -> una moneda de 1 céntimo y otra de 50 céntimos
   console.log(getCoins(3)); // [1, 1, 0, 0, 0, 0] -> una moneda de 1 céntimo y otra de 2

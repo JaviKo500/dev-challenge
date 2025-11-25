@@ -7,7 +7,7 @@
 // import { groupDetails9 } from "./src/advent2021/groupDetails_9";
 // import { searchProduct7 } from "./src/advent2021/searchProduct_7";
 // import { sumPairs6 } from "./src/advent2021/sumPairs_6";
-import { getCoinsValues11 } from "./src/advent2021/getCoinsValues_11";
+import { getCoinsValues10 } from "./src/advent2021/getCoinsValues_10";
 
 // countSheep();
 // countGiftsLetter2();
@@ -17,4 +17,4 @@ import { getCoinsValues11 } from "./src/advent2021/getCoinsValues_11";
 // searchProduct7();
 // cryptoMaxProfit8();
 // groupDetails9();
-getCoinsValues11();
+getCoinsValues10();
