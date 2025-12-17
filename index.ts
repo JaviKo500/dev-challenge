@@ -7,7 +7,8 @@
 // import { groupDetails9 } from "./src/advent2021/groupDetails_9";
 // import { searchProduct7 } from "./src/advent2021/searchProduct_7";
 // import { sumPairs6 } from "./src/advent2021/sumPairs_6";
-import { getCoinsValues10 } from "./src/advent2021/getCoinsValues_10";
+// import { getCoinsValues10 } from "./src/advent2021/getCoinsValues_10";
+import { challenge1 } from "./src/adventJs2025/challenge_1";
 
 // countSheep();
 // countGiftsLetter2();
@@ -17,4 +18,9 @@ import { getCoinsValues10 } from "./src/advent2021/getCoinsValues_10";
 // searchProduct7();
 // cryptoMaxProfit8();
 // groupDetails9();
-getCoinsValues10();
+// getCoinsValues10();
+
+
+
+// * Advent Js 2025 *
+challenge1();
