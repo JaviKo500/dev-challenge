@@ -10,6 +10,7 @@
 // import { getCoinsValues10 } from "./src/advent2021/getCoinsValues_10";
 // import { challenge1 } from "./src/adventJs2025/challenge_1";
 import { challenge2 } from "./src/adventJs2025/challenge_2";
+import { challenge3 } from "./src/adventJs2025/challenge_3";
 
 // countSheep();
 // countGiftsLetter2();
@@ -25,4 +26,5 @@ import { challenge2 } from "./src/adventJs2025/challenge_2";
 
 // * Advent Js 2025 *
 // challenge1();
-challenge2();
+// challenge2();
+challenge3();
