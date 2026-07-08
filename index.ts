@@ -14,6 +14,7 @@
 // import { challenge4 } from "./src/adventJs2025/challenge_4";
 
 import { challenge5 } from "./src/adventJs2025/challenge_5";
+import { challenge6 } from "./src/adventJs2025/challenge_6";
 
 // countSheep();
 // countGiftsLetter2();
@@ -32,4 +33,5 @@ import { challenge5 } from "./src/adventJs2025/challenge_5";
 // challenge2();
 // challenge3();
 // challenge4();
-challenge5();
+// challenge5();
+challenge6();
